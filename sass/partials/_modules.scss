@@ -1,0 +1,65 @@
+%bg-ext{    
+    background-blend-mode: overlay!important;
+    background-color: #ccc !important;
+}
+.about{
+    &-s1{
+        background-position: top right!important;
+    }
+    &-s2{
+        background-position: top center!important;
+    }
+}
+.bg{
+    &-footer{
+        @include set-background($bg__footer-img);
+        background-attachment: scroll;
+    }
+}
+.contact{
+    &-s2{
+        background-position: top center!important;
+    }
+    &-s3{
+        background-position: top center!important;
+    }
+}
+.error{
+    &-s1{
+        @extend %bg-ext;
+    }
+}
+.festival{
+    &-s1{
+        background-position: top right!important;
+    }
+    &-s3{
+        background-position: top right!important;
+    }
+    &-s5{
+        background-position: top right!important;
+    }
+}
+.filter{
+    &-inverse{
+        filter: invert(1);
+    }
+}
+
+textarea{
+    resize: none;
+}
+
+@media all and (max-width:767px){
+    .navbar{
+        &-nav{
+            & *{
+                color: #fff!important;
+            }
+            background-color: #333;
+            border: 1px solid #111;
+            opacity: 0.9;
+            padding: 10px;
+        }
+    }
+}

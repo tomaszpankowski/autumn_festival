@@ -555,9 +555,106 @@ body, html {
   opacity: 0.9;
 }
 
+/* line 1, ../sass/partials/_modules.scss */
+.error-s1 {
+  background-blend-mode: overlay !important;
+  background-color: #ccc !important;
+}
+
+/* line 6, ../sass/partials/_modules.scss */
+.about-s1 {
+  background-position: top right !important;
+}
+/* line 9, ../sass/partials/_modules.scss */
+.about-s2 {
+  background-position: top center !important;
+}
+
+/* line 14, ../sass/partials/_modules.scss */
+.bg-footer {
+  background-attachment: fixed;
+  background-image: url(../img/footer.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+/* line 20, ../sass/partials/_modules.scss */
+.contact-s2 {
+  background-position: top center !important;
+}
+/* line 23, ../sass/partials/_modules.scss */
+.contact-s3 {
+  background-position: top center !important;
+}
+
+/* line 33, ../sass/partials/_modules.scss */
+.festival-s1 {
+  background-position: top right !important;
+}
+/* line 36, ../sass/partials/_modules.scss */
+.festival-s3 {
+  background-position: top right !important;
+}
+/* line 39, ../sass/partials/_modules.scss */
+.festival-s5 {
+  background-position: top right !important;
+}
+
+/* line 44, ../sass/partials/_modules.scss */
+.filter-inverse {
+  filter: invert(1);
+}
+
+/* line 49, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
+@media all and (max-width: 767px) {
+  /* line 55, ../sass/partials/_modules.scss */
+  .navbar-nav {
+    background-color: #333;
+    border: 1px solid #111;
+    opacity: 0.9;
+    padding: 10px;
+  }
+  /* line 56, ../sass/partials/_modules.scss */
+  .navbar-nav * {
+    color: #fff !important;
+  }
+}
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about_s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about_s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about_s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* line 31, ../sass/partials/_mixins.scss */
 .comingsoon-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/coming.jpg);
   background-position: top left;
   background-repeat: no-repeat;
@@ -565,8 +662,35 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact_s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact_s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact_s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .error-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/error.jpg);
   background-position: top left;
   background-repeat: no-repeat;
@@ -574,8 +698,71 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.festival-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/festival/festival_s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.festival-s2 {
+  background-attachment: scroll;
+  background-image: url( );
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.festival-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/festival/festival_s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.festival-s4 {
+  background-attachment: scroll;
+  background-image: url(../img/festival/festival_s4.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.festival-s5 {
+  background-attachment: scroll;
+  background-image: url(../img/festival/festival_s5.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.login-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/login/login_s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .privacy-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
   background-position: top left;
   background-repeat: no-repeat;
