@@ -607,20 +607,25 @@ body, html {
   filter: invert(1);
 }
 
-/* line 49, ../sass/partials/_modules.scss */
+/* line 48, ../sass/partials/_modules.scss */
+header {
+  z-index: 100;
+}
+
+/* line 51, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 55, ../sass/partials/_modules.scss */
+  /* line 57, ../sass/partials/_modules.scss */
   .navbar-nav {
     background-color: #333;
     border: 1px solid #111;
     opacity: 0.9;
     padding: 10px;
   }
-  /* line 56, ../sass/partials/_modules.scss */
+  /* line 58, ../sass/partials/_modules.scss */
   .navbar-nav * {
     color: #fff !important;
   }

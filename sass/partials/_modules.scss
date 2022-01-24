@@ -45,7 +45,9 @@
         filter: invert(1);
     }
 }
-
+header{
+    z-index: 100;
+}
 textarea{
     resize: none;
 }
